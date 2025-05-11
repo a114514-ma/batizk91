@@ -976,6 +976,27 @@ Tab:AddButton({
       loadstring(game:HttpGet("https://github.com/Synergy-Networks/products/raw/main/Rift/loader.lua"))()		
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "破坏者谜团2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "超级好用的脚本(不好用我去卖🥺)",
+	Callback = function()
+      for _, url in pairs({ 
+
+"https://raw.githubusercontent.com/Dekos-lgbty/halloweens/refs/heads/main/autofarms", 
+
+"https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2" 
+
+}) do 
+
+loadstring(game:HttpGet(url, true))() 
+
+end
+  	end    
+})
 
 local Tab = Window:MakeTab({
 	Name = "sols rng",
