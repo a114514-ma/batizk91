@@ -17,7 +17,7 @@ OrionLib:MakeNotification({
 	Name = "欢迎使用本脚本😊😊",
 	Content = "脚本持续更新",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 8
 })
 
 
@@ -36,9 +36,7 @@ local about = Window:MakeTab({
     PremiumOnly = false
 })
 
-about:AddParagraph("添加R&D脚本")
-about:AddParagraph("添加压力脚本")
-about:AddParagraph("替换the rake被删除脚本")
+
 about:AddParagraph("估计会在未来更换ui")
 --[[
 Name = <string> - The name of the UI.
